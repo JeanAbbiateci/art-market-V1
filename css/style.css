@@ -1,0 +1,282 @@
+img {
+    border:none;
+}
+body {
+    font-family: Georgia
+}
+@font-face {
+    font-family:'Droid Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Droid Sans Bold'), local('DroidSans-Bold'), url('http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMQFhaRv2pGgT5Kf0An0s4MM.woff') format('woff');
+}
+@font-face {
+    font-family:'Droid Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+}
+.btn1 {
+    width:220px;
+    height:270px;
+    padding:0px 20px 0px;
+    font-size:13px;
+    line-height:18px;
+    color: #666;
+    text-align:left;
+    background-color:#f4ecec;
+    text-decoration:none;
+    font-family:'Droid Sans', sans-serif;
+    border-top: 1px dotted #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.btn1 h1 {
+    line-height:25px;
+    font-size:25px;
+    font-family:'Droid Sans', sans-serif;
+}
+.btn3 {
+    width:220px;
+    height:20px;
+    display:inline-block;
+    padding:4px 20px 4px;
+    font-size:12px;
+    line-height:18px;
+    font-weight:bold;
+    color: #666;
+    text-align:left;
+    background-color:#f4ecec;
+    text-decoration:none;
+    font-family:'Droid Sans', sans-serif;
+    z-index:-8888888888888888;
+    border-top: 1px dotted #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.btn {
+    width:220px;
+    height:20px;
+    display:inline-block;
+    padding:4px 20px 4px;
+    font-size:14px;
+    line-height:18px;
+    color: #666;
+    text-align:left;
+    background-color:#f4ecec;
+    text-decoration:none;
+    font-family:'Droid Sans', sans-serif;
+    z-index:-8888888888888888;
+    border-top: 1px dotted #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.btn a {
+    display:inline-block;
+    font-size:14px;
+    line-height:18px;
+    color:#ffffff;
+    text-align:center;
+    text-decoration:none;
+}
+.btn:hover {
+    color:#E2001A;
+    background-color:#a1c9e4;
+}
+.btn.active, .btn:active {
+    background-color:#FB6A4A;
+    color:#fff;
+}
+.btn1 img {
+    float:left;
+}
+.btn img {
+    vertical-align:top;
+    padding-top:2px
+}
+.btn1 h1 {
+    line-height:20px;
+    font-size:22px;
+    font-family:'Droid Sans', sans-serif;
+}
+.btn2 {
+    width:220px;
+    height:100%;
+    display:inline-block;
+    padding:4px 20px 15px;
+    font-size:12px;
+    line-height:18px;
+    color: #666;
+    text-align:left;
+    background-color:#f4ecec;
+    text-decoration:none;
+    font-family:'Droid Sans', sans-serif;
+    z-index:-8888888888888888;
+    border-top: 1px dotted #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.btn a {
+    display:inline-block;
+    font-size:14px;
+    line-height:18px;
+    color:#ffffff;
+    text-align:center;
+    background-color:#FB6A4A url('img/arrow-bg.gif') no-repeat top right;
+    text-decoration:none;
+}
+.btn:hover {
+    color:#E2001A;
+    background-color:#a1c9e4;
+}
+.btn.active, .btn:active {
+    background-color:#FB6A4A;
+    color:#fff;
+}
+.btn1 img {
+    float:left;
+}
+#wait {
+    position:absolute;
+    height:50px;
+    width:50px;
+    top:300px;
+    left:550px;
+    color:#666;
+    background:none;
+    font-family:'Droid Sans', sans-serif;
+    z-index:-88888888888888888888888888888888;
+}
+#main {
+    position: absolute;
+    top: 0px;
+    width:220px;
+    left: 40px;
+}
+#view_selection1 {
+    text-decoration:none;
+    width:220px;
+    display: inline;
+    list-style: none;
+    left: 40px;
+}
+#view_selection {
+    text-decoration:none;
+    width:220px;
+    display: inline;
+    list-style: none;
+    left: 40px;
+}
+#view_selection2 {
+    text-decoration:none;
+    width:220px;
+    display: inline;
+    list-style: none;
+    left: 40px;
+}
+#view_selection1 ul {
+    display:inline;
+    width:220px;
+    text-decoration:none;
+    list-style: none;
+}
+#view_selection ul {
+    display:inline;
+    width:220px;
+    text-decoration:none;
+    list-style: none;
+}
+.years {
+    font-size: 18px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.tops {
+    font-size: 18px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.sexes {
+    font-size: 18px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.morts {
+    font-size: 18px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.nat1s {
+    font-size: 14px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.maitres {
+    font-size: 18px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.auction1s {
+    font-size: 16px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif, Georgia;
+    font-weight:bold;
+}
+.surfaces {
+    font-size: 17px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.datesiecles {
+    font-size: 18px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.date20s {
+    font-size: 18px;
+    fill: #aaa;
+    font-family:'Droid Sans', sans-serif;
+    font-weight:bold;
+}
+.tooltip {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    border: 2px solid #DDD;
+    /* background: #222222; */
+    background: #fff;
+    opacity: 1;
+    /* color: #eeeeee; */
+    color: #000;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    z-index: 10;
+    font-family:'Droid Sans', sans-serif;
+}
+#vis {
+    position:absolute;
+    top:0px;
+    left:250px;
+    width: 630x;
+    height: 650px;
+    clear: both;
+    margin-bottom: 10px;
+    background:#fff;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    font-family:'Droid Sans', sans-serif;
+    z-index:-999999999999999999999999;
+}
+a {
+    color:#666;
+}
+#disqus_thread {
+    width:910px;
+}
